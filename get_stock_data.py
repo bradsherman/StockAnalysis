@@ -44,17 +44,16 @@ if __name__ == "__main__":
     tickers = [
             "WMT",
             "FB",
-            "CMG",
+            "SBUX",
             "UAL",
             "NKE",
-            "BAC",
+            "XOM",
             "ADR",
-            "BZ",
-            "SOYB",
-            "SGG",
+            "USO",
             "UNG",
             "JO",
-            "USO"]
+            "SOYB",
+            "BAL"]
     for t in tickers:
         print "Getting data for " + t
         pull_historical_data(t)
